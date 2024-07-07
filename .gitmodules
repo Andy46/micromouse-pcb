@@ -1,0 +1,3 @@
+[submodule "third-party/pmw3360-pcb"]
+	path = third-party/pmw3360-pcb
+	url = https://github.com/siderakb/pmw3360-pcb
