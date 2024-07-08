@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PMW3360DM")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/PMW3360DM-T2QU")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/BMI270")(options "")(descr ""))
+)
