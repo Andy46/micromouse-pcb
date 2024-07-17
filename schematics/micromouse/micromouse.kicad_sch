@@ -5928,12 +5928,12 @@
 		(uuid "23ebbe18-0eff-4852-9b0c-8f83de7a530e")
 	)
 	(no_connect
-		(at 209.55 76.2)
-		(uuid "3bc28113-2578-4f06-949a-baffe03a9a12")
-	)
-	(no_connect
 		(at 209.55 78.74)
 		(uuid "5997c3f2-bda2-4044-b43c-db2975fc7a15")
+	)
+	(no_connect
+		(at 209.55 71.12)
+		(uuid "931dd9d4-e26a-4e7f-a819-3c2fbf57809e")
 	)
 	(no_connect
 		(at 124.46 143.51)
@@ -7382,16 +7382,6 @@
 			(type default)
 		)
 		(uuid "6a3af8ea-9c74-4a96-aab2-e7dc43687ca5")
-	)
-	(wire
-		(pts
-			(xy 77.47 57.15) (xy 90.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6acd7335-d3b3-45ce-b97b-b701a67cb4f1")
 	)
 	(wire
 		(pts
@@ -9085,6 +9075,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5aacd6f-5535-4227-8214-7dcadedf6fa9")
+	)
+	(wire
+		(pts
 			(xy 59.69 29.21) (xy 62.23 29.21)
 		)
 		(stroke
@@ -9235,16 +9235,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 71.12) (xy 209.55 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f86e3c39-3b4b-48cb-83e5-9653049671c1")
-	)
-	(wire
-		(pts
 			(xy 156.21 146.05) (xy 156.21 135.89)
 		)
 		(stroke
@@ -9335,7 +9325,7 @@
 	)
 	(rectangle
 		(start 118.11 156.21)
-		(end 176.53 196.85)
+		(end 175.895 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9702,17 +9692,6 @@
 		)
 		(uuid "0ea4a245-5dd2-4e99-b0a2-d359a9f6ed70")
 	)
-	(label "BMI_{int2}"
-		(at 201.93 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f0de152-917d-4fc0-ae25-f063dc022e45")
-	)
 	(label "SWo"
 		(at 27.94 73.66 0)
 		(fields_autoplaced yes)
@@ -9867,17 +9846,6 @@
 		)
 		(uuid "4694b596-0760-4bfe-8666-01ec41ef4d7c")
 	)
-	(label "PMW_{cs}"
-		(at 90.17 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48edc5e9-e985-4109-b749-666330606260")
-	)
 	(label "I2C1_{sda}"
 		(at 205.74 116.84 0)
 		(fields_autoplaced yes)
@@ -9899,6 +9867,17 @@
 			(justify left bottom)
 		)
 		(uuid "5015d412-209b-4806-8da6-ab48802a717c")
+	)
+	(label "BMI_{int2}"
+		(at 201.93 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "511d6cf4-712f-430a-895d-1e66aa161e8a")
 	)
 	(label "SPI1_{mosi}"
 		(at 248.92 34.29 0)
@@ -16717,7 +16696,7 @@
 		(dnp no)
 		(uuid "d9efe0ae-b443-4994-aee4-65e6ff2bcb2e")
 		(property "Reference" "Y1"
-			(at 39.624 48.26 90)
+			(at 31.496 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17322,6 +17301,75 @@
 			(project "micromouse"
 				(path "/48923552-97ee-4377-b66c-70fa2ca23716"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 36.83 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f143f36f-a412-4fa7-ae11-9d3be672fef7")
+		(property "Reference" "Y2"
+			(at 31.496 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal (8MHz)"
+			(at 28.448 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91ced64-383f-45da-b327-109cf314f1e3")
+		)
+		(pin "2"
+			(uuid "751e5619-52a0-4108-ae2b-30d929e16592")
+		)
+		(instances
+			(project "micromouse"
+				(path "/48923552-97ee-4377-b66c-70fa2ca23716"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
