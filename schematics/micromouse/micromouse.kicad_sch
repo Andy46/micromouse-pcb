@@ -5831,6 +5831,12 @@
 		(uuid "081db5fe-faec-4100-867b-112ec9784344")
 	)
 	(junction
+		(at 27.94 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c0f91b-a41e-4c98-b2dd-eca648d4a9b3")
+	)
+	(junction
 		(at 60.96 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5865,12 +5871,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b750305-37bd-4fa2-b3ca-e7aacedd0c99")
-	)
-	(junction
-		(at 36.83 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d400909-5830-4623-b5c6-ca66939a032f")
 	)
 	(junction
 		(at 193.04 120.65)
@@ -5925,12 +5925,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bdd49db-84e7-4da6-86a9-10f4bce9e146")
-	)
-	(junction
-		(at 36.83 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ca975cb-575d-4106-a949-9675d863839f")
 	)
 	(junction
 		(at 123.19 135.89)
@@ -6035,7 +6029,7 @@
 		(uuid "dd97d987-b02d-4116-9cfa-b0c57bcc7c20")
 	)
 	(junction
-		(at 21.59 48.26)
+		(at 17.78 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5921cb1-98ce-4814-b06c-d14eaa39169d")
@@ -6057,6 +6051,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f79a15-1809-4517-934f-7b22542f002f")
+	)
+	(junction
+		(at 27.94 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9e124e-5577-4d04-b82f-540299584068")
 	)
 	(junction
 		(at 255.27 123.19)
@@ -6118,7 +6118,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 52.07) (xy 36.83 52.07)
+			(xy 26.67 50.8) (xy 27.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6285,16 +6285,6 @@
 			(type default)
 		)
 		(uuid "0c9e1de9-9737-48ce-ac7a-d3f1e77437a7")
-	)
-	(wire
-		(pts
-			(xy 40.64 52.07) (xy 36.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cac13b6-cebb-4781-87cd-95511bb403c3")
 	)
 	(wire
 		(pts
@@ -6498,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 44.45) (xy 40.64 46.99)
+			(xy 40.64 43.18) (xy 40.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6628,7 +6618,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 44.45) (xy 21.59 44.45)
+			(xy 19.05 43.18) (xy 17.78 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6988,7 +6978,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 44.45) (xy 21.59 48.26)
+			(xy 17.78 43.18) (xy 17.78 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7258,7 +7248,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 48.26) (xy 21.59 48.26)
+			(xy 16.51 46.99) (xy 17.78 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7298,7 +7288,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 48.26) (xy 21.59 52.07)
+			(xy 17.78 46.99) (xy 17.78 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7325,6 +7315,16 @@
 			(type default)
 		)
 		(uuid "55041f2b-4b16-40bf-9c78-622c8ed6ddcd")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fc4376-26ce-4706-9286-65790e305cd8")
 	)
 	(wire
 		(pts
@@ -8098,6 +8098,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944799c7-6749-4c48-b7a7-8449cabde712")
+	)
+	(wire
+		(pts
 			(xy 172.72 76.2) (xy 172.72 92.71)
 		)
 		(stroke
@@ -8728,7 +8738,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 52.07) (xy 22.86 52.07)
+			(xy 17.78 50.8) (xy 19.05 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8828,23 +8838,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 49.53) (xy 40.64 52.07)
+			(xy 40.64 49.53) (xy 40.64 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cb366da5-e0e9-4c91-84e7-62c5cfc1c1ba")
-	)
-	(wire
-		(pts
-			(xy 36.83 44.45) (xy 40.64 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc04b4d8-5965-41ee-b72e-4a6017a278b7")
 	)
 	(wire
 		(pts
@@ -8908,7 +8908,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 44.45) (xy 36.83 44.45)
+			(xy 26.67 43.18) (xy 27.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9465,6 +9465,16 @@
 			(type default)
 		)
 		(uuid "feff15ce-c8d4-48aa-867f-6a9b5698c8b4")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 40.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe31f8e-fba2-492e-8d0c-dd24c645fd5e")
 	)
 	(rectangle
 		(start 12.7 12.7)
@@ -12158,7 +12168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 48.26 270)
+		(at 16.51 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12166,7 +12176,7 @@
 		(dnp no)
 		(uuid "1d984cb7-8d1d-4fb1-aff8-ffaee804f073")
 		(property "Reference" "#PWR014"
-			(at 13.97 48.26 0)
+			(at 10.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +12185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.828 50.546 90)
+			(at 17.018 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +12194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 48.26 0)
+			(at 16.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 48.26 0)
+			(at 16.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 48.26 0)
+			(at 16.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,7 +12970,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 26.67 52.07 270)
+		(at 22.86 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12968,7 +12978,7 @@
 		(dnp no)
 		(uuid "3ebd40d1-1139-47de-a71c-24f8c98a35ea")
 		(property "Reference" "C2"
-			(at 23.876 50.292 90)
+			(at 20.066 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +12986,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 23.114 53.594 90)
+			(at 19.304 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12984,7 +12994,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 22.86 53.0352 0)
+			(at 19.05 51.7652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,7 +13003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 52.07 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13012,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 26.67 52.07 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +14959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 26.67 44.45 90)
+		(at 22.86 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14957,7 +14967,7 @@
 		(dnp no)
 		(uuid "88f81deb-722b-4f1a-827e-c0584e4509ea")
 		(property "Reference" "C1"
-			(at 24.13 45.974 90)
+			(at 20.32 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,7 +14975,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 23.114 42.926 90)
+			(at 19.304 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14973,7 +14983,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 30.48 43.4848 0)
+			(at 26.67 42.2148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14982,7 +14992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 44.45 0)
+			(at 22.86 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +15001,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 26.67 44.45 0)
+			(at 22.86 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,7 +16946,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 36.83 48.26 90)
+		(at 27.94 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16944,7 +16954,7 @@
 		(dnp no)
 		(uuid "d9efe0ae-b443-4994-aee4-65e6ff2bcb2e")
 		(property "Reference" "Y1"
-			(at 31.496 47.244 90)
+			(at 22.606 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,7 +16963,7 @@
 			)
 		)
 		(property "Value" "Crystal (8MHz)"
-			(at 28.448 42.418 90)
+			(at 24.384 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,7 +16972,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +16981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +16990,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,7 +17566,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 36.83 48.26 90)
+		(at 27.94 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17564,7 +17574,7 @@
 		(dnp no)
 		(uuid "f143f36f-a412-4fa7-ae11-9d3be672fef7")
 		(property "Reference" "Y2"
-			(at 31.496 49.022 90)
+			(at 22.606 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17573,7 +17583,7 @@
 			)
 		)
 		(property "Value" "Crystal (8MHz)"
-			(at 28.448 42.418 90)
+			(at 24.384 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17592,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,7 +17610,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 36.83 48.26 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,6 +17827,73 @@
 			(project "micromouse"
 				(path "/48923552-97ee-4377-b66c-70fa2ca23716"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd4a714f-b996-4620-b629-e49447ff1b46")
+		(property "Reference" "R17"
+			(at 35.56 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200m"
+			(at 35.814 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 35.56 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3daf70c7-1c4a-4190-b8b1-0e8fcf5b773c")
+		)
+		(pin "1"
+			(uuid "f08538b5-fee5-4d35-9014-db33ac5afffe")
+		)
+		(instances
+			(project "micromouse"
+				(path "/48923552-97ee-4377-b66c-70fa2ca23716"
+					(reference "R17")
 					(unit 1)
 				)
 			)
