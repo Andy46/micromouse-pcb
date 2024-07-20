@@ -3,4 +3,5 @@
   (lib (name "PMW3360DM")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/PMW3360DM-T2QU")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/BMI270")(options "")(descr ""))
   (lib (name "FSMSM")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/FSMSM")(options "")(descr ""))
+  (lib (name "QR")(type "KiCad")(uri "/projects/90_BigProjects/03_Laberynthier/micromouse-pcb/schematics/kicad-library/QR")(options "")(descr ""))
 )

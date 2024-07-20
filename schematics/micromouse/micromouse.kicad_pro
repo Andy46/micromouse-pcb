@@ -52,7 +52,13 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|130811361|47325959|4c88a532-a053-4787-9d0e-9a9dde8798fc|89ca5b4a-8cc4-46cf-96dc-7115959c5168",
+        "copper_edge_clearance|130811361|73525959|44f997aa-994d-4a62-9686-79b0bb9a45ef|3a407c8b-4a46-4e3c-a455-f8e283160488",
+        "copper_edge_clearance|153011361|47325959|80da777e-7a70-4fd6-a75e-cf2ac067e8ea|dea8305b-8c5e-4894-bb08-928c70ac69a4",
+        "copper_edge_clearance|153011361|73525959|91e1ef17-8368-4a5c-a55b-ddc633e069e6|576699c0-3231-4901-8a4d-f4cd6767f025",
+        "courtyards_overlap|145299999|77750001|697a76ad-5f04-40e2-81fc-3214225c65e8|b10b725d-88f4-4527-8d34-d8ccf9921d77"
+      ],
       "meta": {
         "version": 2
       },
